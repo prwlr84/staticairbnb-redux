@@ -1,9 +1,9 @@
 export default function(state,action) {
   if(state === undefined){
-    return []
+    return null;
   }
 
-  if (action.type === 'SET_FLATS'){
+  if (action.type === 'SELECT_FLAT'){
     return action.payload;
   } else {
     return state;
