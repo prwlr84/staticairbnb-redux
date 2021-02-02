@@ -56,4 +56,4 @@ const flats =
   }
 ];
 
-export default flat;
+export default flats;
